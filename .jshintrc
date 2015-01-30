@@ -1,0 +1,24 @@
+{
+  "node": true,
+  "browser": true,
+  "esnext": true,
+  "bitwise": true,
+  "eqeqeq": false,
+  "latedef": true,
+  "noarg": true,
+  "undef": true,
+  "unused": true,
+  "strict": true,
+  "maxdepth": 4,
+
+
+  "globals": {
+    "wrap": true,
+    "unwrap": true,
+    "Polymer": true,
+    "Platform": true,
+    "browserify": true
+  },
+
+  "predef": ["-Promise"]
+}
